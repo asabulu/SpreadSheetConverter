@@ -35,8 +35,8 @@ EOB
 def readTableSchema (tableName)
 
   begin
-    server = $Config["database"]["server"] #"TW-BP-PS90DB"
-    db = $Config["database"]["name"] #"HC90SYS"
+    server = $Config["database"]["server"] #"SAMPLEDB"
+    db = $Config["database"]["name"] #"NORTHWIND"
     usr = $Config["database"]["usr"] #"vsuser"
     pwd = $Config["database"]["pwd"] #"vsuser"
 
